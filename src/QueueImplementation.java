@@ -15,6 +15,7 @@ public class QueueImplementation {
         end = (end+1)%N;
     }
 
+    //The comment for the previous method is also applicable for this one.
     public int get(){
         int item = buf[start];
         start = (start+1)%N;
